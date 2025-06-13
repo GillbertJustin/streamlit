@@ -43,7 +43,7 @@ def process_video(input_path, output_path, model):
     out.release()
 
 def main():
-    st.title("YOLOv11 Mobil Berjalan Detection")
+    st.title("YOLOv8 Mobil Berjalan Detection")
     st.write("This app uses a pre-configured model to detect objects in an uploaded video.")
 
     model_path = "best.pt"
